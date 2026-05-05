@@ -1,3 +1,3 @@
-module github.com/thiagotognoli/traefikgeoip
+module github.com/rubarcelk/traefikgeoip
 
 go 1.19

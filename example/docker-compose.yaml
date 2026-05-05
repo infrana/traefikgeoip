@@ -10,13 +10,13 @@ services:
       - "--providers.docker=true"
       - "--providers.docker.exposedbydefault=false"
       - "--entryPoints.web.address=:80"
-      - "--experimental.localPlugins.traefikgeoip.moduleName=github.com/thiagotognoli/traefikgeoip"
+      - "--experimental.localPlugins.traefikgeoip.moduleName=github.com/rubarcelk/traefikgeoip"
     ports:
       - "80:80"
       - "8080:8080"
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
-      - "../.:/plugins-local/src/github.com/thiagotognoli/traefikgeoip"
+      - "../.:/plugins-local/src/github.com/rubarcelk/traefikgeoip"
       - geoipupdate_data:/usr/share/GeoIP
     networks:
       - traefikgeoip_example

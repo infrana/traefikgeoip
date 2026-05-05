@@ -5,8 +5,8 @@ import (
 	"net"
 	"os"
 
-	geoip2 "github.com/thiagotognoli/traefikgeoip/geoip2"
-	geoip2_iso88591 "github.com/thiagotognoli/traefikgeoip/geoip2_iso88591"
+	geoip2 "github.com/rubarcelk/traefikgeoip/geoip2"
+	geoip2_iso88591 "github.com/rubarcelk/traefikgeoip/geoip2_iso88591"
 )
 
 // GeoIPCountryResult in memory, this should have between 126 and 180 bytes. On average, consider 150 bytes.
