@@ -30,7 +30,7 @@ linters-settings:
       Main:
         allow:
           - $gostd
-          - github.com/rubarcelk/traefikgeoip
+          - github.com/infrana/traefikgeoip
           #- github.com/IncSW/geoip2
 
 linters:

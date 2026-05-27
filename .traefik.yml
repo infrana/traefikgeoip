@@ -1,5 +1,5 @@
 type: middleware
-import: github.com/rubarcelk/traefikgeoip
+import: github.com/infrana/traefikgeoip
 
 name: traefikgeoip
 displayName: GeoIP

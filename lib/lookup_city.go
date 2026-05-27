@@ -6,8 +6,8 @@ import (
 	"os"
 	"strconv"
 
-	geoip2 "github.com/rubarcelk/traefikgeoip/geoip2"
-	geoip2_iso88591 "github.com/rubarcelk/traefikgeoip/geoip2_iso88591"
+	geoip2 "github.com/infrana/traefikgeoip/geoip2"
+	geoip2_iso88591 "github.com/infrana/traefikgeoip/geoip2_iso88591"
 )
 
 // GeoIPCityResult in memory, this should have between 126 and 180 bytes. On average, consider 150 bytes.

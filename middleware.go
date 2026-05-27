@@ -8,7 +8,7 @@ import (
 	"os"
 	"sync"
 
-	lib "github.com/rubarcelk/traefikgeoip/lib"
+	lib "github.com/infrana/traefikgeoip/lib"
 )
 
 // Package-level singletons: the MaxMind DB is ~120 MB and must be opened once,
